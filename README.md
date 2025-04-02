@@ -150,15 +150,11 @@ First, run the build.sh script once to initialize.:
    Wait for a moment, and when you see the interface that asks us to make a selection, use the → arrow key and the Enter key on the keyboard to exit the menu.
 
    Check the current directory again and find an additional userpatches folder, which contains configuration files.&#x20;
-2. GNORE\_UPDATES="yes"
-
-   Save and vi.the
-
-   &#x20;configuration file:
+2. Update the config-default.conf file:
    ```bash
    sudo nano userpatches/config-default.conf
    ```
-  Find and set IGNORE_UPDATES to yes:
+3. Find and set IGNORE_UPDATES to yes:
    ```bash
    IGNORE_UPDATES="yes"
    ```
