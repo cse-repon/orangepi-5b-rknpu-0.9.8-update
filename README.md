@@ -118,8 +118,7 @@ To ensure compatibility and avoid compilation errors, make the following modific
        vma->vm_flags &= ~flags;
    }
    ```
-
-![image](https://github.com/user-attachments/assets/de47418d-aa0c-4494-a5fe-86162f5aa5d5)
+![image](https://github.com/user-attachments/assets/adcb44bc-15b9-41bd-bd53-72273c06d021)
 
 1. **Modify rknpu\_devfreq.c file:**
 
