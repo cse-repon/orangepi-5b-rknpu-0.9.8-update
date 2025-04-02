@@ -17,7 +17,7 @@ You can download the working rkllm models from below HF links for running the **
 # Build Linux 6.1.43 rk3588 Kernel with RKNPU Driver 0.9.8
 ## Prerequisites
 
-- **Operating System**: [Ubuntu 22.04 Jammy 6.1.43(https://drive.google.com/drive/folders/1xhP1KeW_hL5Ka4nDuwBa8N40U8BN0AC9)] 
+- **Operating System**: [Ubuntu 22.04 Jammy 6.1.43](https://drive.google.com/drive/folders/1xhP1KeW_hL5Ka4nDuwBa8N40U8BN0AC9)
 - **Kernel Version**: Linux 6.1.43-rockchip-rk3588
 - **Disk Space**: At least 20 GB of free space
 - **Network Access**: Ensure the development board has internet access to clone repositories and download necessary packages.
