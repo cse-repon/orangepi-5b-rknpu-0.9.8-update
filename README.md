@@ -1,13 +1,23 @@
 # Updating RKNPU Driver to Version 0.9.8 on Orange Pi 5B (Jammy 1.0.8 with Linux 6.1.43-rockchip-rk3588)
 
+
 This guide provides detailed instructions to update the RKNPU driver to version 0.9.8 on an Orange Pi 5B running Jammy 1.0.8 with the Linux 6.1.43-rockchip-rk3588 kernel. Upgrading the RKNPU driver is essential for successfully running RKLLM multimodal models.
 
+**You may download the prebuilt [linux-image-current-rockchip-rk3588_1.0.8_arm64.deb](https://github.com/cse-repon/orangepi-5b-rknpu-0.9.8-update/blob/830e587c5bc9ae39f2655caad8d7e837f42d3935/linux-image-current-rockchip-rk3588_1.0.8_arm64.deb)] from this repository and jump to step 9 directly** or continue building the kernel on your board.
+
+You may download the working rkllm models from below HF links for running the [examples of RKNN LLM repository (https://github.com/airockchip/rknn-llm/tree/main/examples)]:
+1. https://huggingface.co/3ib0n/Qwen2-VL-2B-rkllm
+2. https://huggingface.co/VRxiaojie/DeepSeek-R1-Distill-Qwen-7B-RK3588S-RKLLM1.1.4
+
+
+# Build Linux 6.1.43 rk3588 Kernel with RKNPU Driver 0.9.8
 ## Prerequisites
 
-- **Operating System**: Ubuntu 22.04 (Jammy)
+- **Operating System**: [Ubuntu 22.04 Jammy 6.1.43 (https://drive.google.com/drive/folders/1xhP1KeW_hL5Ka4nDuwBa8N40U8BN0AC9)] 
 - **Kernel Version**: Linux 6.1.43-rockchip-rk3588
 - **Disk Space**: At least 20 GB of free space
 - **Network Access**: Ensure the development board has internet access to clone repositories and download necessary packages.
+
 
 ## Step 1: Verify Current NPU Driver Version
 
@@ -203,8 +213,8 @@ The output should now indicate version 0.9.8.
 
 - [RKLLM Deployment Guide](https://wiki.vrxiaojie.top/Deepseek-R1-RK3588-OrangePi5/RKLLM部署语言大模型教程/（可选）升级RKNPU驱动.html)
 - [Orange Pi Bu](https://github.com/airockchip/rknn-llm)[ild ](https://github.com/orangepi-xunlong/orangepi-build)[Repository](https://wiki.vrxiaojie.top/Deepseek-R1-RK3588-OrangePi5/RKLLM部署语言大模型教程/（可选）升级RKNPU驱动.html)
-- [RKN LLM] (https://github.com/airockchip/rknn-llm)
-- [Easy installation of RKNN and RKLLM (be aware of using the latest RKLLM 1.1.4 version, get this from RKNN LLM git repository)] (https://github.com/Pelochus/ezrknpu)
+- [RKN LLM](https://github.com/airockchip/rknn-llm)
+- [Easy installation of RKNN and RKLLM - please use the latest RKLLM 1.1.4 version from RKNN LLM git repository](https://github.com/Pelochus/ezrknpu)
 
 By following these steps, you should have successfully updated the RKNPU driver to version 0.9.8, enabling the deployment of RKLLM multimodal models on your Orange Pi 5B.
 
