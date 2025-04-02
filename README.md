@@ -168,13 +168,18 @@ Select the appropriate options for your board and kernel version when prompted.
 
 ![image](https://github.com/user-attachments/assets/f078d22f-886a-40b0-9bc6-8b8773c8ac00)
 
+After successful build, you will see like below messages (Note: the first time build might require nearly 40 minutes!)
+![image](https://github.com/user-attachments/assets/addcd887-8dda-4b7c-a2fb-f4ddd6c011f5)
+
+Check the file 
 ![image](https://github.com/user-attachments/assets/f32ef375-33cd-4c30-8af0-e86cdefe0e13)
 
 ## Step 9: Install the New Kernel
 
-After compilation, need to install only the linux-image-current-rockchip-rk3588_1.0.8_arm64.deb generated Debian package:
+Need to install only the **linux-image-current-rockchip-rk3588_1.0.8_arm64.deb** package:
 
 ```bash
+sudo apt purge -y linux-image-current-rockchip-rk3588
 sudo dpkg -i output/debs/linux-image-current-rockchip-rk3588_1.0.8_arm64.deb
 ```
 
