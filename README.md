@@ -211,7 +211,6 @@ The output should now indicate version 0.9.8.
 ## References
 
 - [RKLLM Deployment Guide](https://wiki.vrxiaojie.top/Deepseek-R1-RK3588-OrangePi5/RKLLM部署语言大模型教程/（可选）升级RKNPU驱动.html)
-- [Orange Pi Bu](https://github.com/airockchip/rknn-llm)[ild ](https://github.com/orangepi-xunlong/orangepi-build)[Repository](https://wiki.vrxiaojie.top/Deepseek-R1-RK3588-OrangePi5/RKLLM部署语言大模型教程/（可选）升级RKNPU驱动.html)
 - [RKN LLM](https://github.com/airockchip/rknn-llm)
 - [Easy installation of RKNN and RKLLM ](https://github.com/Pelochus/ezrknpu) Please use the latest RKLLM 1.1.4 version from RKNN LLM git repository
 
