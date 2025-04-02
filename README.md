@@ -39,7 +39,7 @@ Ensure that your system has the necessary packages installed:
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y git build-essential libssl-dev
+sudo apt-get install -y git cmake
 ```
 
 ## Step 3: Clone the Orange Pi Build Repository
