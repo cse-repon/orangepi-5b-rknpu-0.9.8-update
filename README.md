@@ -1,5 +1,3 @@
-# orangepi-5b-rknpu-0.9.8-update
-
 # Updating RKNPU Driver to Version 0.9.8 on Orange Pi 5B (Jammy 1.0.8 with Linux 6.1.43-rockchip-rk3588)
 
 This guide provides detailed instructions to update the RKNPU driver to version 0.9.8 on an Orange Pi 5B running Jammy 1.0.8 with the Linux 6.1.43-rockchip-rk3588 kernel. Upgrading the RKNPU driver is essential for successfully running RKLLM multimodal models.
@@ -126,7 +124,7 @@ To ensure compatibility and avoid compilation errors, make the following modific
 
 ## Step 7: Disable Source Synchronization
 
-Because we manually overwrote drivers to the kernel/orange-pi-5.10-rk35xx directory before, if we run the compilation directly now, the script will check the inconsistency with the cloud source code, resulting in the problem of re-pulling the code to overwrite. Therefore, the source code synchronization function should be disabled in the configuration file.
+Because we manually overwrote drivers to the kernel/orange-pi-6.10-rk35xx directory before, if we run the compilation directly now, the script will check the inconsistency with the cloud source code, resulting in the problem of re-pulling the code to overwrite. Therefore, the source code synchronization function should be disabled in the configuration file.
 
 
 
