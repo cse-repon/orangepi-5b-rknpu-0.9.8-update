@@ -7,9 +7,9 @@ This guide provides detailed instructions to update the RKNPU driver to version 
 **You can download the prebuilt [linux-image-current-rockchip-rk3588_1.0.8_arm64.deb](https://github.com/cse-repon/orangepi-5b-rknpu-0.9.8-update/blob/830e587c5bc9ae39f2655caad8d7e837f42d3935/linux-image-current-rockchip-rk3588_1.0.8_arm64.deb) and jump to step 9 directly** or continue building the kernel on your board.
 
 
-You can download the working rkllm models from below HF links for running the **[examples of RKNN LLM repository(https://github.com/airockchip/rknn-llm/tree/main/examples)]**:
-1. https://huggingface.co/3ib0n/Qwen2-VL-2B-rkllm
-2. https://huggingface.co/VRxiaojie/DeepSeek-R1-Distill-Qwen-7B-RK3588S-RKLLM1.1.4
+You can download the working rkllm models from below HF links for running the [examples of RKNN LLM repository](https://github.com/airockchip/rknn-llm/tree/main/examples):
+1. [Qwen2-VL-2B-rkllm](https://huggingface.co/3ib0n/Qwen2-VL-2B-rkllm)
+2. [Deepseek R1 1.5B 7B and Qwen2.5 3B](https://huggingface.co/VRxiaojie)
 
 
 
