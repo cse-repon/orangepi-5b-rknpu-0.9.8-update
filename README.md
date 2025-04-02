@@ -1,4 +1,4 @@
-# Updating RKNPU Driver to Version 0.9.8 on Orange Pi 5B (Jammy 1.0.8 with Linux 6.1.43-rockchip-rk3588)
+# Updating RKNPU Driver 0.9.8 on Orange Pi 5B (or similar models)
 
 
 This guide provides detailed instructions to update the RKNPU driver to version 0.9.8 on an Orange Pi 5B running Jammy 1.0.8 with the Linux 6.1.43-rockchip-rk3588 kernel. Upgrading the RKNPU driver is essential for successfully running RKLLM multimodal models.
